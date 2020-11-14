@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #181a1b;
+  color: aliceblue;
+  margin: auto;
+}
+
+section {
+  height: 100vh;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+#intro {
+  height: 100vh;
+  padding: 10%;
+  background-image: url('./../img/5g-bg-mobile.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.intro-container {
+  background-color: #0c7586f5;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  #intro {
+    background-image: url('./../img/5g-bg-tablet.jpg');
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+  #intro {
+    display: flex;
+    align-items: center;
+    background-image: url('./../img/5g-bg-desktop.jpg');
+  }
+  .intro-container {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+  }
+}
+
+.dark-bg {
+  background-color: rgb(0, 1, 49);
+  color: aliceblue;
+}
+
+.dark-bg-secondary {
+  background-color: #14375a;
+  color: aliceblue;
+}
+
+.intro-card {
+  width: 18rem;
+  border: .3rem solid rgb(38, 58, 233);
+  box-shadow: 0 8px 16px 0 rgba(10, 25, 160, 0.781), 0 6px 20px 0 rgba(10, 25, 160, 0.61);
+}
+
+.text-center {
+  text-align: center;
+}
