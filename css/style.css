@@ -112,7 +112,7 @@ p {
 }
 
 #section_5g {
-  background-image: url('/img/section_5g-bg.jpg');
+  background-image: url('./../img/section_5g-bg.jpg');
 }
 
 #section_iot {
