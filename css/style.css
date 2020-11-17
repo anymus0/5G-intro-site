@@ -12,7 +12,15 @@ body {
 }
 
 section {
-  height: 100vh;
+  height: auto !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 900px) {
+  section {
+    height: 100vh !important;
+  }
 }
 
 p {
@@ -87,8 +95,6 @@ p {
   margin-bottom: 0rem;
 }
 
-
-
 .sectionTitle {
   font-size: 11vh;
   color: #af4444;
@@ -102,12 +108,17 @@ p {
 
 .sectionContent {
   background-color: rgba(11, 37, 49, 0.95);
-  padding: 2% 
+  padding: 2%;
 }
 
 #section_5g {
-  background-image: url('https://i.postimg.cc/1RgBB0M9/section-5g-bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+  background-image: url('/img/section_5g-bg.jpg');
+}
+
+#section_iot {
+  background-image: url('https://i2.wp.com/tridenstechnology.com/wp-content/uploads/2019/08/IoT-devices.jpg');
+}
+
+#section_6g {
+  background-image: url('https://static.techspot.com/images2/news/bigimage/2019/05/2019-05-09-image-21.jpg');
 }
